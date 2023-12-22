@@ -824,24 +824,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\loaki\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\aburnett\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\loaki\\Desktop\\Hackat'Orga\\HackatOrga\\HackatOrga\\HackatOrga\\HackatOrga.csproj",
+      "projectUniqueName": "D:\\aburnett\\test\\HackatOrga\\HackatOrga\\HackatOrga.csproj",
       "projectName": "HackatOrga",
-      "projectPath": "C:\\Users\\loaki\\Desktop\\Hackat'Orga\\HackatOrga\\HackatOrga\\HackatOrga\\HackatOrga.csproj",
-      "packagesPath": "C:\\Users\\loaki\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\loaki\\Desktop\\Hackat'Orga\\HackatOrga\\HackatOrga\\HackatOrga\\obj\\",
+      "projectPath": "D:\\aburnett\\test\\HackatOrga\\HackatOrga\\HackatOrga.csproj",
+      "packagesPath": "C:\\Users\\aburnett\\.nuget\\packages\\",
+      "outputPath": "D:\\aburnett\\test\\HackatOrga\\HackatOrga\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\loaki\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\aburnett\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -849,7 +844,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Users\\loaki\\Desktop\\parcour_de_certif": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

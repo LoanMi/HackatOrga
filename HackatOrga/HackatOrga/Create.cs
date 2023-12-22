@@ -31,7 +31,7 @@ namespace HackatOrga
         private void btnMenu_Click(object sender, EventArgs e)
         {
             this.Close();
-            (new Form1()).Show();
+            (new Create()).Show();
         }
     }
 }
