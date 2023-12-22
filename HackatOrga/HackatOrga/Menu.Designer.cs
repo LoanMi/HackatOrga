@@ -33,38 +33,45 @@
             btnEvent = new Button();
             btnLstP = new Button();
             btnCreate = new Button();
-            cmbHackat = new ComboBox();
+            lsthackat = new ListBox();
             SuspendLayout();
             // 
             // btnMod
             // 
+            btnMod.Enabled = false;
             btnMod.Location = new Point(301, 312);
             btnMod.Name = "btnMod";
             btnMod.Size = new Size(94, 29);
             btnMod.TabIndex = 0;
             btnMod.Text = "Modifier";
             btnMod.UseVisualStyleBackColor = true;
+            btnMod.Click += btnMod_Click;
             // 
             // btnSupp
             // 
+            btnSupp.Enabled = false;
             btnSupp.Location = new Point(494, 312);
             btnSupp.Name = "btnSupp";
             btnSupp.Size = new Size(94, 29);
             btnSupp.TabIndex = 1;
             btnSupp.Text = "Supprimer";
             btnSupp.UseVisualStyleBackColor = true;
+            btnSupp.Click += btnSupp_Click;
             // 
             // btnEvent
             // 
-            btnEvent.Location = new Point(771, 312);
+            btnEvent.Enabled = false;
+            btnEvent.Location = new Point(750, 312);
             btnEvent.Name = "btnEvent";
             btnEvent.Size = new Size(94, 29);
             btnEvent.TabIndex = 2;
             btnEvent.Text = "Évènements";
             btnEvent.UseVisualStyleBackColor = true;
+            btnEvent.Click += btnEvent_Click;
             // 
             // btnLstP
             // 
+            btnLstP.Enabled = false;
             btnLstP.Location = new Point(932, 312);
             btnLstP.Name = "btnLstP";
             btnLstP.Size = new Size(94, 29);
@@ -80,21 +87,24 @@
             btnCreate.TabIndex = 4;
             btnCreate.Text = "Créer";
             btnCreate.UseVisualStyleBackColor = true;
+            btnCreate.Click += btnCreate_Click;
             // 
-            // cmbHackat
+            // lsthackat
             // 
-            cmbHackat.FormattingEnabled = true;
-            cmbHackat.Location = new Point(592, 227);
-            cmbHackat.Name = "cmbHackat";
-            cmbHackat.Size = new Size(151, 28);
-            cmbHackat.TabIndex = 5;
+            lsthackat.FormattingEnabled = true;
+            lsthackat.ItemHeight = 20;
+            lsthackat.Location = new Point(584, 182);
+            lsthackat.Name = "lsthackat";
+            lsthackat.Size = new Size(150, 84);
+            lsthackat.TabIndex = 6;
+            lsthackat.SelectedIndexChanged += lsthackat_SelectedIndexChanged;
             // 
             // Menu
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1531, 622);
-            Controls.Add(cmbHackat);
+            Controls.Add(lsthackat);
             Controls.Add(btnCreate);
             Controls.Add(btnLstP);
             Controls.Add(btnEvent);
@@ -102,6 +112,7 @@
             Controls.Add(btnMod);
             Name = "Menu";
             Text = "Menu";
+            Load += Menu_Load;
             ResumeLayout(false);
         }
 
@@ -112,6 +123,6 @@
         private Button btnEvent;
         private Button btnLstP;
         private Button btnCreate;
-        private ComboBox cmbHackat;
+        private ListBox lsthackat;
     }
 }

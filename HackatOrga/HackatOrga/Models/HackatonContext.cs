@@ -30,8 +30,7 @@ namespace HackatOrga.Models
         {
             if (!optionsBuilder.IsConfigured)
             {
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-                optionsBuilder.UseMySql("server=192.168.61.150;database=Hackaton;user=phpmyadmin;password=password;charset=utf8", Microsoft.EntityFrameworkCore.ServerVersion.Parse("10.11.4-mariadb"));
+                optionsBuilder.UseMySql("server=192.168.61.150;database=Hackaton;user=phpmyadmin;password=password;charset=utf8;ConvertZeroDateTime=True ", Microsoft.EntityFrameworkCore.ServerVersion.Parse("10.11.4-mariadb"));
             }
         }
 

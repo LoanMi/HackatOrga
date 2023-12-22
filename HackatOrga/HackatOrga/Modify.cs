@@ -25,7 +25,7 @@ namespace HackatOrga
         private void btnModifier_Click(object sender, EventArgs e)
         {
             this.Close();
-            (new Form1()).Show();
+            (new Menu()).Show();
         }
     }
 }

@@ -33,3 +33,5 @@ C:\Users\loaki\Desktop\Hackat'Orga\HackatOrga\HackatOrga\HackatOrga\obj\Debug\ne
 C:\Users\loaki\Desktop\Hackat'Orga\HackatOrga\HackatOrga\HackatOrga\obj\Debug\net6.0-windows\HackatOrga.pdb
 C:\Users\loaki\Desktop\Hackat'Orga\HackatOrga\HackatOrga\HackatOrga\obj\Debug\net6.0-windows\HackatOrga.genruntimeconfig.cache
 C:\Users\loaki\Desktop\Hackat'Orga\HackatOrga\HackatOrga\HackatOrga\obj\Debug\net6.0-windows\ref\HackatOrga.dll
+C:\Users\loaki\Desktop\Hackat'Orga\HackatOrga\HackatOrga\HackatOrga\obj\Debug\net6.0-windows\HackatOrga.Create.resources
+C:\Users\loaki\Desktop\Hackat'Orga\HackatOrga\HackatOrga\HackatOrga\obj\Debug\net6.0-windows\HackatOrga.Modify.resources
