@@ -78,6 +78,7 @@
             btnLstP.TabIndex = 3;
             btnLstP.Text = "Participants";
             btnLstP.UseVisualStyleBackColor = true;
+            btnLstP.Click += btnLstP_Click;
             // 
             // btnCreate
             // 

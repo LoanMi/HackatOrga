@@ -30,8 +30,9 @@ namespace HackatOrga
 
         private void btnMenu_Click(object sender, EventArgs e)
         {
-            this.Close();
             (new Menu()).Show();
+            this.Hide();
+            
         }
     }
 }
