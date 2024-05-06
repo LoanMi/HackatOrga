@@ -28,20 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
+            Button btnStatistiques;
             btnMod = new Button();
             btnSupp = new Button();
             btnEvent = new Button();
             btnLstP = new Button();
             btnCreate = new Button();
             lsthackat = new ListBox();
+            btnStatistiques = new Button();
             SuspendLayout();
+            // 
+            // btnStatistiques
+            // 
+            btnStatistiques.Location = new Point(586, 284);
+            btnStatistiques.Name = "btnStatistiques";
+            btnStatistiques.Size = new Size(75, 23);
+            btnStatistiques.TabIndex = 7;
+            btnStatistiques.Text = "Statistiques";
+            btnStatistiques.UseVisualStyleBackColor = true;
+            btnStatistiques.Click += btnStatistiques_Click;
             // 
             // btnMod
             // 
             btnMod.Enabled = false;
-            btnMod.Location = new Point(301, 312);
+            btnMod.Location = new Point(263, 234);
+            btnMod.Margin = new Padding(3, 2, 3, 2);
             btnMod.Name = "btnMod";
-            btnMod.Size = new Size(94, 29);
+            btnMod.Size = new Size(82, 22);
             btnMod.TabIndex = 0;
             btnMod.Text = "Modifier";
             btnMod.UseVisualStyleBackColor = true;
@@ -50,9 +63,10 @@
             // btnSupp
             // 
             btnSupp.Enabled = false;
-            btnSupp.Location = new Point(494, 312);
+            btnSupp.Location = new Point(432, 234);
+            btnSupp.Margin = new Padding(3, 2, 3, 2);
             btnSupp.Name = "btnSupp";
-            btnSupp.Size = new Size(94, 29);
+            btnSupp.Size = new Size(82, 22);
             btnSupp.TabIndex = 1;
             btnSupp.Text = "Supprimer";
             btnSupp.UseVisualStyleBackColor = true;
@@ -61,9 +75,10 @@
             // btnEvent
             // 
             btnEvent.Enabled = false;
-            btnEvent.Location = new Point(750, 312);
+            btnEvent.Location = new Point(656, 234);
+            btnEvent.Margin = new Padding(3, 2, 3, 2);
             btnEvent.Name = "btnEvent";
-            btnEvent.Size = new Size(94, 29);
+            btnEvent.Size = new Size(82, 22);
             btnEvent.TabIndex = 2;
             btnEvent.Text = "Évènements";
             btnEvent.UseVisualStyleBackColor = true;
@@ -72,9 +87,10 @@
             // btnLstP
             // 
             btnLstP.Enabled = false;
-            btnLstP.Location = new Point(932, 312);
+            btnLstP.Location = new Point(816, 234);
+            btnLstP.Margin = new Padding(3, 2, 3, 2);
             btnLstP.Name = "btnLstP";
-            btnLstP.Size = new Size(94, 29);
+            btnLstP.Size = new Size(82, 22);
             btnLstP.TabIndex = 3;
             btnLstP.Text = "Participants";
             btnLstP.UseVisualStyleBackColor = true;
@@ -82,9 +98,10 @@
             // 
             // btnCreate
             // 
-            btnCreate.Location = new Point(621, 381);
+            btnCreate.Location = new Point(465, 285);
+            btnCreate.Margin = new Padding(3, 2, 3, 2);
             btnCreate.Name = "btnCreate";
-            btnCreate.Size = new Size(94, 29);
+            btnCreate.Size = new Size(82, 22);
             btnCreate.TabIndex = 4;
             btnCreate.Text = "Créer";
             btnCreate.UseVisualStyleBackColor = true;
@@ -93,26 +110,29 @@
             // lsthackat
             // 
             lsthackat.FormattingEnabled = true;
-            lsthackat.ItemHeight = 20;
-            lsthackat.Location = new Point(584, 182);
+            lsthackat.ItemHeight = 15;
+            lsthackat.Location = new Point(511, 136);
+            lsthackat.Margin = new Padding(3, 2, 3, 2);
             lsthackat.Name = "lsthackat";
-            lsthackat.Size = new Size(150, 84);
+            lsthackat.Size = new Size(132, 64);
             lsthackat.TabIndex = 6;
             lsthackat.SelectedIndexChanged += lsthackat_SelectedIndexChanged;
             // 
             // Menu
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1305, 581);
+            ClientSize = new Size(1142, 436);
+            Controls.Add(btnStatistiques);
             Controls.Add(lsthackat);
             Controls.Add(btnCreate);
             Controls.Add(btnLstP);
             Controls.Add(btnEvent);
             Controls.Add(btnSupp);
             Controls.Add(btnMod);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "Menu";
-            Text = "Menu";
+            Text = " ";
             Load += Menu_Load;
             ResumeLayout(false);
         }
@@ -125,5 +145,6 @@
         private Button btnLstP;
         private Button btnCreate;
         private ListBox lsthackat;
+        private Button btnStatistiques;
     }
 }
